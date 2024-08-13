@@ -26,3 +26,10 @@ background-color: grey;
     background-color: lightgray;
 
 }
+
+
+
+.section{
+    height:80vh;
+    overflow:scroll;
+}
