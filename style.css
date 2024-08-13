@@ -19,10 +19,10 @@ align-items: center;
 }
 .topnav {
   display: flex;
-  background-color: grey;
+  background-color: seagreen;
 }
 
-.topnav a {
+.topnav .nav-element {
   margin: 10px;
   padding: 10px;
   text-decoration: none;
@@ -30,11 +30,13 @@ align-items: center;
 }
 
 .topnav a:hover {
-  background-color: lightgray;
+  background-color: rgb(27, 62, 42);
+  color: white;
 }
 
-.nav-selected {
-  background-color: lightgray;
+.topnav .nav-selected {
+  background-color: rgb(27, 62, 42);
+  color: white;
 }
 
 .section {
