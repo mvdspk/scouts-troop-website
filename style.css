@@ -1,35 +1,43 @@
-.page-header{
-margin:0px;
-padding:10px 0px;
-background-color: lightgrey;
-text-align: center;
+.page-header {
+    display:flex;
+    justify-content: center;
+  margin: 0px;
+  padding: 10px 0px;
+  background-color: khaki;
 }
-
-.topnav{
+.page-header .title{
 display: flex;
-background-color: grey;
+align-items: center;
+}
+.page-header img {
+  width: 80px;
+  height: 80px;
+  border: 3px dashed maroon;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: orange;
+}
+.topnav {
+  display: flex;
+  background-color: grey;
 }
 
 .topnav a {
-    margin:10px;
-    padding:10px;
-    text-decoration: none;
-    color: black;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-
-.topnav a:hover{
-    background-color: lightgray;
+.topnav a:hover {
+  background-color: lightgray;
 }
 
-.nav-selected{
-    background-color: lightgray;
-
+.nav-selected {
+  background-color: lightgray;
 }
 
-
-
-.section{
-    height:80vh;
-    overflow:scroll;
+.section {
+  height: 80vh;
+  overflow: scroll;
 }
