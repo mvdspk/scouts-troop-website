@@ -7,10 +7,22 @@ text-align: center;
 
 .topnav{
 display: flex;
-background-color: green;
+background-color: grey;
 }
 
 .topnav a {
     margin:10px;
     padding:10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.topnav a:hover{
+    background-color: lightgray;
+}
+
+.nav-selected{
+    background-color: lightgray;
+
 }
